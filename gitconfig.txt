@@ -1,0 +1,17 @@
+//Acessar configurações global notepad++ ~/.gitconfig
+//Acessar configurações locais git config --local --edit
+
+[alias]
+	last = log -1 HEAD
+	lg = log --graph --all --pretty=format:'%Cred%h%Creset - %s %Cgreen(%cr) %C(bold blue)%an%Creset %C(yellow)%d%Creset'
+
+[color "branch"]
+	current = green
+	remote = yellow
+
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+
+[help]
+	autocorrect = 1
