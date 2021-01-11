@@ -1,7 +1,8 @@
 # Caso não exista o gitconfig faça:
-# rm ~/.gitconfig
-# touch ~/.gitconfig
-# git config --global user.email <my-email@email.com>
+# 1 - rm ~/.gitconfig
+# 2 - touch ~/.gitconfig
+# 3 - git config --global user.email <my-email@email.com>
+
 # Acessar configurações global notepad++ ~/.gitconfig
 # Acessar configurações locais git config --local --edit
 
