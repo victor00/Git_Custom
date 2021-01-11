@@ -1,8 +1,11 @@
-//Acessar configurações global notepad++ ~/.gitconfig
-//Acessar configurações locais git config --local --edit
+# Acessar configurações global notepad++ ~/.gitconfig
+# Acessar configurações locais git config --local --edit
 
 [alias]
+	# Last commit
 	last = log -1 HEAD
+	
+	# Better view-log
 	lg = log --graph --all --pretty=format:'%Cred%h%Creset - %s %Cgreen(%cr) %C(bold blue)%an%Creset %C(yellow)%d%Creset'
 
 	st = status -sb
@@ -20,6 +23,7 @@
 	
 	# list aliases
     	la = "!git config -l | grep alias | cut -c 7-"
+	
 	rao = remote add origin
 	ac = !git add . && git commit -am
 	pushitgood = push -u origin --all
